@@ -4,7 +4,7 @@ import numpy as np
 # import random
 from scipy.stats import poisson
 
-st.markdown("<h1 style='text-align: center; margin-bottom: 2rem'>Previsões estatísticas para Copa do Mundo 2022 - Qatar</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center'>Previsões estatísticas para Copa do Mundo 2022 - Qatar</h1>", unsafe_allow_html=True)
 
 
 
@@ -99,7 +99,8 @@ def Jogo(selecao1, selecao2):
   placar = '{}x{}'.format(gols1, gols2)
   return [gols1, gols2, saldo1, saldo2, pontos1, pontos2, resultado, placar]
 
-
+st.markdown('----')
+st.markdown("## ⚽ Probabilidades de Jogos")
 
 listaselecoes1 = selecoes.index.tolist()
 listaselecoes1.sort()
