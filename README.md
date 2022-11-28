@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img src="README.jpeg" alt="">
+  <img src="./data/README.jpeg" alt="">
 </p>
 
 
