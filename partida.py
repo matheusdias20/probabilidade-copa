@@ -9,7 +9,7 @@ st.markdown("<h1 style='text-align: center'>Previsões estatísticas para Copa d
 
 
 
-selecoes = pd.read_excel('data\DadosCopaDoMundoQatar2022.xlsx', sheet_name = 'selecoes', index_col = 0)
+selecoes = pd.read_excel('data/DadosCopaDoMundoQatar2022.xlsx', sheet_name = 'selecoes', index_col = 0)
 
 
 fifa = selecoes['PontosRankingFIFA']
@@ -138,5 +138,5 @@ st.table(matriz.applymap(aux))
 st.markdown('----')
 st.markdown("## 🌎 Probabilidades dos Placares")
 
-jogoscopa = pd.read_excel('data\output.xlsx')
+jogoscopa = pd.read_excel('data/output.xlsx')
 st.table(jogoscopa[['Grupo', 'Seleção 1', 'Seleção 2', 'Vitoria', 'Empate', 'Derrota']])
