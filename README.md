@@ -12,7 +12,7 @@
 
 ### Site 💻
 
-- [Previsões Estatísticas]()
+- [Previsões Estatísticas](https://matheusdias20-probabilidade-copa-partida-mdkdt5.streamlit.app/)
 
 ## Linguagens & Tecnologias: 🚀
 - Google Colab
